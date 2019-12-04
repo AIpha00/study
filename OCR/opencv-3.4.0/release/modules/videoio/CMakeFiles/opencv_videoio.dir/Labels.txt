@@ -1,0 +1,47 @@
+# Target labels
+ Main
+ opencv_videoio
+ Module
+# Source files and their labels
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/include/opencv2/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/include/opencv2/videoio/cap_ios.h
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/include/opencv2/videoio/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/include/opencv2/videoio/videoio_c.h
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/src/cap.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/src/cap_images.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/src/cap_mjpeg_encoder.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/src/cap_mjpeg_decoder.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/src/cap_avfoundation_mac.mm
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/videoio/src/precomp.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/cvconfig.h
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/opencv2/opencv_modules.hpp

@@ -1,0 +1,35 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/src/roiSelector.cpp
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/src/window_cocoa.mm
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/cvconfig.h
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/opencv2/opencv_modules.hpp

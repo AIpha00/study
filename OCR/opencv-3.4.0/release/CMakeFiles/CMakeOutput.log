@@ -1,0 +1,1214 @@
+The system is: Darwin - 19.0.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/3.15.5/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/3.15.5/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12357/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12357.dir/build.make CMakeFiles/cmTC_12357.dir/build
+Building CXX object CMakeFiles/cmTC_12357.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_12357.dir/testCXXCompiler.cxx.o -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_12357
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12357.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12357.dir/testCXXCompiler.cxx.o  -o cmTC_12357 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e7b26/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7b26.dir/build.make CMakeFiles/cmTC_e7b26.dir/build
+Building CXX object CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -v -Wl,-v -o CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 520 -v -coverage-notes-file /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.0.0 (clang-1100.0.33.12) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_e7b26
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b26.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7b26 
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_e7b26 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-520
+BUILD 18:38:01 Oct 11 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e7b26/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7b26.dir/build.make CMakeFiles/cmTC_e7b26.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -v -Wl,-v -o CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.12)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 520 -v -coverage-notes-file /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.12) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_e7b26]
+  ignore line: [/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b26.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7b26 ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.12)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_e7b26 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e7b26] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_e7b26.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ec42/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ec42.dir/build.make CMakeFiles/cmTC_9ec42.dir/build
+Building C object CMakeFiles/cmTC_9ec42.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_9ec42.dir/testCCompiler.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9ec42
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ec42.dir/testCCompiler.c.o  -o cmTC_9ec42 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3ce9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3ce9.dir/build.make CMakeFiles/cmTC_c3ce9.dir/build
+Building C object CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -v -Wl,-v -o CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 520 -v -coverage-notes-file /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 (clang-1100.0.33.12) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_c3ce9
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ce9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o  -o cmTC_c3ce9 
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_c3ce9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-520
+BUILD 18:38:01 Oct 11 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c3ce9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3ce9.dir/build.make CMakeFiles/cmTC_c3ce9.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -v -Wl,-v -o CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.12)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 520 -v -coverage-notes-file /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.12) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_c3ce9]
+  ignore line: [/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ce9.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o  -o cmTC_c3ce9 ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.12)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_c3ce9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c3ce9] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_c3ce9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45115/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45115.dir/build.make CMakeFiles/cmTC_45115.dir/build
+Building C object CMakeFiles/cmTC_45115.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_45115.dir/CheckSymbolExists.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_45115
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45115.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_45115.dir/CheckSymbolExists.c.o  -o cmTC_45115 
+
+
+File /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00435/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_00435.dir/build.make CMakeFiles/cmTC_00435.dir/build
+Building C object CMakeFiles/cmTC_00435.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_00435.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00435
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00435.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_00435.dir/CheckIncludeFile.c.o  -o cmTC_00435 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_285c5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_285c5.dir/build.make CMakeFiles/cmTC_285c5.dir/build
+Building C object CMakeFiles/cmTC_285c5.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_285c5.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_285c5
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285c5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_285c5.dir/CheckIncludeFile.c.o  -o cmTC_285c5 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52d30/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52d30.dir/build.make CMakeFiles/cmTC_52d30.dir/build
+Building C object CMakeFiles/cmTC_52d30.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_52d30.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52d30
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d30.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_52d30.dir/CheckIncludeFile.c.o  -o cmTC_52d30 
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_408b8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_408b8.dir/build.make CMakeFiles/cmTC_408b8.dir/build
+Building C object CMakeFiles/cmTC_408b8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_408b8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_408b8
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_408b8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_408b8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_408b8 
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed284/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ed284.dir/build.make CMakeFiles/cmTC_ed284.dir/build
+Building C object CMakeFiles/cmTC_ed284.dir/TestEndianess.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_ed284.dir/TestEndianess.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ed284
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed284.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ed284.dir/TestEndianess.c.o  -o cmTC_ed284 
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e243e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e243e.dir/build.make CMakeFiles/cmTC_e243e.dir/build
+Building C object CMakeFiles/cmTC_e243e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_e243e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e243e
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e243e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e243e.dir/CheckFunctionExists.c.o  -o cmTC_e243e 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86758/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_86758.dir/build.make CMakeFiles/cmTC_86758.dir/build
+Building C object CMakeFiles/cmTC_86758.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_86758.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_86758
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86758.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_86758.dir/CheckIncludeFile.c.o  -o cmTC_86758 
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57147/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_57147.dir/build.make CMakeFiles/cmTC_57147.dir/build
+Building C object CMakeFiles/cmTC_57147.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_57147.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57147
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57147.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_57147.dir/CheckIncludeFile.c.o  -o cmTC_57147 
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83ab7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_83ab7.dir/build.make CMakeFiles/cmTC_83ab7.dir/build
+Building C object CMakeFiles/cmTC_83ab7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_83ab7.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_83ab7
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83ab7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_83ab7.dir/CheckIncludeFile.c.o  -o cmTC_83ab7 
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_baaa7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_baaa7.dir/build.make CMakeFiles/cmTC_baaa7.dir/build
+Building C object CMakeFiles/cmTC_baaa7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_baaa7.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_baaa7
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baaa7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_baaa7.dir/CheckIncludeFile.c.o  -o cmTC_baaa7 
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c1be/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5c1be.dir/build.make CMakeFiles/cmTC_5c1be.dir/build
+Building C object CMakeFiles/cmTC_5c1be.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_5c1be.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5c1be
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c1be.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_5c1be.dir/CheckIncludeFile.c.o  -o cmTC_5c1be 
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e5f4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e5f4.dir/build.make CMakeFiles/cmTC_7e5f4.dir/build
+Building C object CMakeFiles/cmTC_7e5f4.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_7e5f4.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7e5f4
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e5f4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_7e5f4.dir/CheckIncludeFile.c.o  -o cmTC_7e5f4 
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90bed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90bed.dir/build.make CMakeFiles/cmTC_90bed.dir/build
+Building C object CMakeFiles/cmTC_90bed.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_90bed.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90bed
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90bed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_90bed.dir/CheckIncludeFile.c.o  -o cmTC_90bed 
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70001/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_70001.dir/build.make CMakeFiles/cmTC_70001.dir/build
+Building C object CMakeFiles/cmTC_70001.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_70001.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_70001
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70001.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_70001.dir/CheckIncludeFile.c.o  -o cmTC_70001 
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b2fed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b2fed.dir/build.make CMakeFiles/cmTC_b2fed.dir/build
+Building C object CMakeFiles/cmTC_b2fed.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_b2fed.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b2fed
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2fed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b2fed.dir/CheckIncludeFile.c.o  -o cmTC_b2fed 
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c32ad/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c32ad.dir/build.make CMakeFiles/cmTC_c32ad.dir/build
+Building C object CMakeFiles/cmTC_c32ad.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_c32ad.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c32ad
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c32ad.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c32ad.dir/CheckIncludeFile.c.o  -o cmTC_c32ad 
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15006/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_15006.dir/build.make CMakeFiles/cmTC_15006.dir/build
+Building C object CMakeFiles/cmTC_15006.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_15006.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_15006
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15006.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_15006.dir/CheckIncludeFile.c.o  -o cmTC_15006 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9e824/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e824.dir/build.make CMakeFiles/cmTC_9e824.dir/build
+Building C object CMakeFiles/cmTC_9e824.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_9e824.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9e824
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e824.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_9e824.dir/CheckIncludeFile.c.o  -o cmTC_9e824 
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cadd6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cadd6.dir/build.make CMakeFiles/cmTC_cadd6.dir/build
+Building C object CMakeFiles/cmTC_cadd6.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dinline=inline  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DC_HAS_inline -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_cadd6.dir/src.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c:4:15: warning: no previous prototype for function 'foo' [-Wmissing-prototypes]
+        foo_t foo(){return 0;}
+              ^
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c:5:22: warning: unused parameter 'argc' [-Wunused-parameter]
+        int main(int argc, char *argv[]) {return 0;}
+                     ^
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c:5:34: warning: unused parameter 'argv' [-Wunused-parameter]
+        int main(int argc, char *argv[]) {return 0;}
+                                 ^
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c:3:29: warning: unused function 'static_foo' [-Wunused-function]
+        static inline foo_t static_foo() {return 0;}
+                            ^
+4 warnings generated.
+Linking C executable cmTC_cadd6
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cadd6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DC_HAS_inline -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_cadd6.dir/src.c.o  -o cmTC_cadd6 
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0608d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0608d.dir/build.make CMakeFiles/cmTC_0608d.dir/build
+Building C object CMakeFiles/cmTC_0608d.dir/SIZEOF_SIGNED_SHORT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0608d.dir/SIZEOF_SIGNED_SHORT.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_0608d
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0608d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0608d.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTC_0608d 
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_117b2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_117b2.dir/build.make CMakeFiles/cmTC_117b2.dir/build
+Building C object CMakeFiles/cmTC_117b2.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_117b2.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_117b2
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_117b2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_117b2.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_117b2 
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e452c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e452c.dir/build.make CMakeFiles/cmTC_e452c.dir/build
+Building C object CMakeFiles/cmTC_e452c.dir/SIZEOF_SIGNED_INT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_e452c.dir/SIZEOF_SIGNED_INT.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_e452c
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e452c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e452c.dir/SIZEOF_SIGNED_INT.c.o  -o cmTC_e452c 
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_786de/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_786de.dir/build.make CMakeFiles/cmTC_786de.dir/build
+Building C object CMakeFiles/cmTC_786de.dir/SIZEOF_UNSIGNED_INT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_786de.dir/SIZEOF_UNSIGNED_INT.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_786de
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_786de.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_786de.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_786de 
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35741/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_35741.dir/build.make CMakeFiles/cmTC_35741.dir/build
+Building C object CMakeFiles/cmTC_35741.dir/SIZEOF_SIGNED_LONG.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_35741.dir/SIZEOF_SIGNED_LONG.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_35741
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35741.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_35741.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTC_35741 
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0fd76/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0fd76.dir/build.make CMakeFiles/cmTC_0fd76.dir/build
+Building C object CMakeFiles/cmTC_0fd76.dir/SIZEOF_UNSIGNED_LONG.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0fd76.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_0fd76
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd76.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0fd76.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_0fd76 
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6843/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6843.dir/build.make CMakeFiles/cmTC_c6843.dir/build
+Building C object CMakeFiles/cmTC_c6843.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_c6843.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_c6843
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6843.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c6843.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTC_c6843 
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75829/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75829.dir/build.make CMakeFiles/cmTC_75829.dir/build
+Building C object CMakeFiles/cmTC_75829.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_75829.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_75829
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75829.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_75829.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_75829 
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45800/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45800.dir/build.make CMakeFiles/cmTC_45800.dir/build
+Building C object CMakeFiles/cmTC_45800.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_45800.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_45800
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45800.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_45800.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTC_45800 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c4933/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4933.dir/build.make CMakeFiles/cmTC_c4933.dir/build
+Building C object CMakeFiles/cmTC_c4933.dir/SIZEOF_SIZE_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_c4933.dir/SIZEOF_SIZE_T.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_c4933
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4933.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c4933.dir/SIZEOF_SIZE_T.c.o  -o cmTC_c4933 
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64e4c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_64e4c.dir/build.make CMakeFiles/cmTC_64e4c.dir/build
+Building C object CMakeFiles/cmTC_64e4c.dir/SIZEOF_PTRDIFF_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_64e4c.dir/SIZEOF_PTRDIFF_T.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_64e4c
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64e4c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_64e4c.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTC_64e4c 
+
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b40cc/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b40cc.dir/build.make CMakeFiles/cmTC_b40cc.dir/build
+Building C object CMakeFiles/cmTC_b40cc.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_b40cc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_b40cc
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b40cc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b40cc.dir/CheckFunctionExists.c.o  -o cmTC_b40cc /usr/lib/libm.dylib 
+
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1d73/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e1d73.dir/build.make CMakeFiles/cmTC_e1d73.dir/build
+Building C object CMakeFiles/cmTC_e1d73.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_e1d73.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_e1d73
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d73.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e1d73.dir/CheckFunctionExists.c.o  -o cmTC_e1d73 /usr/lib/libm.dylib 
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60c4e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_60c4e.dir/build.make CMakeFiles/cmTC_60c4e.dir/build
+Building C object CMakeFiles/cmTC_60c4e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_60c4e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_60c4e
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60c4e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_60c4e.dir/CheckFunctionExists.c.o  -o cmTC_60c4e /usr/lib/libm.dylib 
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49c1c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_49c1c.dir/build.make CMakeFiles/cmTC_49c1c.dir/build
+Building C object CMakeFiles/cmTC_49c1c.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_49c1c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49c1c
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49c1c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_49c1c.dir/CheckFunctionExists.c.o  -o cmTC_49c1c 
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f5d73/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f5d73.dir/build.make CMakeFiles/cmTC_f5d73.dir/build
+Building C object CMakeFiles/cmTC_f5d73.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_f5d73.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_f5d73
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d73.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f5d73.dir/CheckFunctionExists.c.o  -o cmTC_f5d73 
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ca75/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0ca75.dir/build.make CMakeFiles/cmTC_0ca75.dir/build
+Building C object CMakeFiles/cmTC_0ca75.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0ca75.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ca75
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ca75.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0ca75.dir/CheckFunctionExists.c.o  -o cmTC_0ca75 
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d65a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d65a.dir/build.make CMakeFiles/cmTC_0d65a.dir/build
+Building C object CMakeFiles/cmTC_0d65a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0d65a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d65a
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d65a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0d65a.dir/CheckFunctionExists.c.o  -o cmTC_0d65a 
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23d23/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_23d23.dir/build.make CMakeFiles/cmTC_23d23.dir/build
+Building C object CMakeFiles/cmTC_23d23.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_23d23.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_23d23
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d23.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_23d23.dir/CheckFunctionExists.c.o  -o cmTC_23d23 
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b53d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2b53d.dir/build.make CMakeFiles/cmTC_2b53d.dir/build
+Building C object CMakeFiles/cmTC_2b53d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_2b53d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b53d
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b53d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_2b53d.dir/CheckFunctionExists.c.o  -o cmTC_2b53d 
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a712/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0a712.dir/build.make CMakeFiles/cmTC_0a712.dir/build
+Building C object CMakeFiles/cmTC_0a712.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0a712.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_0a712
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a712.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0a712.dir/CheckFunctionExists.c.o  -o cmTC_0a712 
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7bc4b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7bc4b.dir/build.make CMakeFiles/cmTC_7bc4b.dir/build
+Building C object CMakeFiles/cmTC_7bc4b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_7bc4b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_7bc4b
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc4b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_7bc4b.dir/CheckFunctionExists.c.o  -o cmTC_7bc4b 
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0632a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0632a.dir/build.make CMakeFiles/cmTC_0632a.dir/build
+Building C object CMakeFiles/cmTC_0632a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0632a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_0632a
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0632a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0632a.dir/CheckFunctionExists.c.o  -o cmTC_0632a 
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62370/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62370.dir/build.make CMakeFiles/cmTC_62370.dir/build
+Building C object CMakeFiles/cmTC_62370.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_62370.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_62370
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62370.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_62370.dir/CheckFunctionExists.c.o  -o cmTC_62370 
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d58d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6d58d.dir/build.make CMakeFiles/cmTC_6d58d.dir/build
+Building C object CMakeFiles/cmTC_6d58d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_6d58d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtol' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtol' is a builtin with type 'long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+1 warning generated.
+Linking C executable cmTC_6d58d
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d58d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_6d58d.dir/CheckFunctionExists.c.o  -o cmTC_6d58d 
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd0a3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fd0a3.dir/build.make CMakeFiles/cmTC_fd0a3.dir/build
+Building C object CMakeFiles/cmTC_fd0a3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_fd0a3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtol' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtol' is a builtin with type 'long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+1 warning generated.
+Linking C executable cmTC_fd0a3
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0a3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_fd0a3.dir/CheckFunctionExists.c.o  -o cmTC_fd0a3 
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0c646/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0c646.dir/build.make CMakeFiles/cmTC_0c646.dir/build
+Building C object CMakeFiles/cmTC_0c646.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_0c646.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+/usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+1 warning generated.
+Linking C executable cmTC_0c646
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c646.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0c646.dir/CheckFunctionExists.c.o  -o cmTC_0c646 
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a23f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a23f.dir/build.make CMakeFiles/cmTC_3a23f.dir/build
+Building C object CMakeFiles/cmTC_3a23f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_3a23f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a23f
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a23f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_3a23f.dir/CheckFunctionExists.c.o  -o cmTC_3a23f 
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28353/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_28353.dir/build.make CMakeFiles/cmTC_28353.dir/build
+Building C object CMakeFiles/cmTC_28353.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SNPRINTF -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_28353.dir/src.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28353
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28353.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SNPRINTF -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_28353.dir/src.c.o  -o cmTC_28353 
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67bb6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_67bb6.dir/build.make CMakeFiles/cmTC_67bb6.dir/build
+Building C object CMakeFiles/cmTC_67bb6.dir/TestEndianess.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_67bb6.dir/TestEndianess.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_67bb6
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67bb6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_67bb6.dir/TestEndianess.c.o  -o cmTC_67bb6 
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_855ba/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_855ba.dir/build.make CMakeFiles/cmTC_855ba.dir/build
+Building C object CMakeFiles/cmTC_855ba.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_855ba.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_855ba
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_855ba.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_855ba.dir/CheckIncludeFile.c.o  -o cmTC_855ba 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_470d1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_470d1.dir/build.make CMakeFiles/cmTC_470d1.dir/build
+Building C object CMakeFiles/cmTC_470d1.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_470d1.dir/src.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c
+/Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/src.c:3:7: warning: no previous prototype for function 'test_func' [-Wmissing-prototypes]
+void* test_func(void* data)
+      ^
+1 warning generated.
+Linking C executable cmTC_470d1
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_470d1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_470d1.dir/src.c.o  -o cmTC_470d1 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function dgemm_ exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3bfe1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3bfe1.dir/build.make CMakeFiles/cmTC_3bfe1.dir/build
+Building C object CMakeFiles/cmTC_3bfe1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dgemm_ -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_3bfe1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bfe1
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bfe1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dgemm_ -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_3bfe1.dir/CheckFunctionExists.c.o  -o cmTC_3bfe1 -framework Accelerate 
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bbae4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bbae4.dir/build.make CMakeFiles/cmTC_bbae4.dir/build
+Building C object CMakeFiles/cmTC_bbae4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_bbae4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bbae4
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbae4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_bbae4.dir/CheckFunctionExists.c.o  -o cmTC_bbae4 -framework Accelerate 
+
+
+
+Determining if the include file Accelerate/Accelerate.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7726/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7726.dir/build.make CMakeFiles/cmTC_c7726.dir/build
+Building C object CMakeFiles/cmTC_c7726.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_c7726.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c7726
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7726.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c7726.dir/CheckIncludeFile.c.o  -o cmTC_c7726 
+
+
+
+Determining if the include file Accelerate/Accelerate.h exists passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88770/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_88770.dir/build.make CMakeFiles/cmTC_88770.dir/build
+Building C object CMakeFiles/cmTC_88770.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_88770.dir/CheckIncludeFile.c.o   -c /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_88770
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88770.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_88770.dir/CheckIncludeFile.c.o  -o cmTC_88770 
+
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /Users/lvsongke/coding/lvsk/OCR/opencv-3.4.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9a3b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a9a3b.dir/build.make CMakeFiles/cmTC_a9a3b.dir/build
+Building C object CMakeFiles/cmTC_a9a3b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a9a3b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a9a3b
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9a3b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_a9a3b.dir/CheckFunctionExists.c.o  -o cmTC_a9a3b -ldl 
+
+
+
