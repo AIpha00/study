@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>不一</title>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.js"></script>
+    <script type="text/javascript" src="../static/CryptoJS/rollups/aes.js"></script>
+    <script type="text/javascript" src="../static/CryptoJS/components/mode-ecb.js"></script>
+    <script type="text/javascript" src="../static/CryptoJS/components/pad-nopadding.js"></script>
+    <script type="text/javascript" src="../static/captcha.js"></script>
+    <script type="text/javascript" src="../static/common.js"></script>
+</head>
+<body>
+<h1>欢迎来到不一的反爬虫空间</h1>
+
+<div>请先验证:</div>
+<div class="tracks" id="tracks">
+    <div class="hover" id="sliderblock"></div>
+    <div class="slidertips" id="slidertips">已通过！</div>
+</div>
+
+<div id="click" class="click">
+    <div>请点击，方可显示内容</div>
+    <button onclick="fetch()" name="click">显示全部内容</button>
+</div>
+
+
+<div id="content"></div>
+
+<input type="hidden" id="captcha" value=""/>
+
+</body>
+<style>
+    .tracks {
+        width: 340px;
+        height: 40px;
+        background: #d0c4fe;
+        overflow: hidden;
+        border: 1px solid #c5c5c5;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    #sliderblock {
+        left: 0px;
+        position: absolute;
+        color: #fff;
+    }
+
+    #sliderblock:hover {
+        color: #666;
+    }
+
+
+    .hover {
+        margin-left: 9px;
+        width: 50px;
+        height: 40px;
+        background: #ad99ff;
+        text-align: center;
+        line-height: 38px;
+        border-radius: 3px;
+    }
+
+    .hover:hover {
+        background: #fff;
+    }
+
+    .slidertips {
+        height: 38px;
+        line-height: 38px;
+        color: #fff;
+        visibility: hidden;
+    }
+
+
+    .click {
+        visibility: hidden;
+    }
+</style>
+
+</html>

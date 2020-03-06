@@ -1,0 +1,17 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "main": "snkrs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co-redis": "^2.1.1",
+    "jsdom": "^15.1.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

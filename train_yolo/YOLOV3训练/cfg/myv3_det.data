@@ -1,0 +1,5 @@
+classes= 4
+train = /home/lilai/mydetection/YOLOv3/darknet/darknet/training_list.txt
+names = /home/lilai/mydetection/YOLOv3/darknet/darknet/data/myv3.names
+backup= /home/lilai/mydetection/YOLOv3/darknet/darknet/backup
+

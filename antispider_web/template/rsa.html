@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>不一的rsa</title>
+    <script src="http://g.tbcdn.cn/kissy/k/1.4.6/seed-min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        if (KISSY.Config.debug) {
+            var debugPath = "../build";
+            KISSY.config({
+                packages: [
+                    {
+                        name: "kg/rsa/2.0.1",
+                        path: debugPath,
+                        charset: "utf-8",
+                        ignorePackageNameInUri: true
+                    }
+                ]
+            });
+        }
+    </script>
+</head>
+<body style="padding: 10px;">
+
+<h1>淘宝前端密码加密</h1>
+
+<form name="rsatest" id="rsatest">
+    <p>
+        输入你的用户名:<br>
+        <input name="username" type="text" value="" size="40" id="username">
+    </p>
+    <p>
+        输入明文:<br>
+        <input name="plaintext" type="text" value="" size="40" id="plaintext">
+        <input type="button" id="doEncrypt" value="encrypt">
+        <input type="button" id="insertMon" value="insert">
+    </p>
+    <p>
+        密文:<br>
+        <textarea name="ciphertext" rows="10" cols="70" id="ciphertext"></textarea>
+    </p>
+    <p>
+        运行时间:<br>
+        <input name="status" type="text" size="40" id="status">
+    </p>
+    <p>
+        入库结果:<br>
+        <input name="insert" type="text" size="40" id="insert">
+    </p>
+</form>
+
+<script>
+    KISSY.use("kg/rsa/2.0.1/index, node", function (S, Rsa, Node) {
+        var $ = Node.all;
+
+        var publicKey = "9a39c3fefeadf3d194850ef3a1d707dfa7bec0609a60bfcc7fe4ce2c615908b9599c8911e800aff684f804413324dc6d9f982f437e95ad60327d221a00a2575324263477e4f6a15e3b56a315e0434266e092b2dd5a496d109cb15875256c73a2f0237c5332de28388693c643c8764f137e28e8220437f05b7659f58c4df94685";
+
+        var privateKey = "8e9912f6d3645894e8d38cb58c0db81ff516cf4c7e5a14c7f1eddb1459d2cded4d8d293fc97aee6aefb861859c8b6a3d1dfe710463e1f9ddc72048c09751971c4a580aa51eb523357a3cc48d31cfad1d4a165066ed92d4748fb6571211da5cb14bc11b6e2df7c1a559e6d5ac1cd5c94703a22891464fba23d0d965086277a161";
+
+        var encryptionExponent = "10001";
+
+        var do_encrypt = function () {
+            var before = new Date();
+            var code = $("#plaintext").val();
+
+            console.log('加密：' + code);
+
+            var rsa = new Rsa();
+            rsa.i
+            rsa.setPublic(publicKey, encryptionExponent);
+            var res = rsa.encrypt(code);
+
+            console.log('结果：' + res);
+
+            var after = new Date();
+
+            if (res) {
+                $("#ciphertext").val(res);
+                $("#status").val("Time: " + (after - before) + "ms");
+                return res
+            }
+        };
+
+        var do_decrypt = function () {
+            var before = new Date();
+            var code = $("#ciphertext").val();
+
+            console.log('解密：' + code);
+
+            var rsa = new Rsa();
+            rsa.setPrivate(publicKey, encryptionExponent, privateKey);
+            var res = rsa.decrypt(code);
+
+            console.log('结果：' + res);
+
+            var after = new Date();
+
+            if (res) {
+                $("#decrypted").val(res);
+                $("#status").val("Time: " + (after - before) + "ms");
+            }
+        };
+
+        $("#doEncrypt").on("click", do_encrypt);
+        // $("#doDecrypt").on("click", do_decrypt);
+    })
+</script>
+<script>
+    function insertMon() {
+
+        var password = $("#plaintext").val();
+        var res = $("#ciphertext").val();
+        var user = $("#username").val();
+        if (user === '' || password === ''){
+            alert('请检查输入需要入库信息');
+            $("#plaintext").val('');
+            return
+        }
+        text = $.ajax({
+            type: "GET", async: false,
+            url: "http://127.0.0.1:8206/rsa/insert?password=" + password + '&encrypt=' + res + '&username=' + user
+        });
+        var status = $.parseJSON(text.responseText);
+        if (status.code) {
+            $('#insert').val(status.msg)
+        }
+    }
+    $('#insertMon').on("click", insertMon)
+</script>
+</body>
+</html>

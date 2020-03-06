@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/12306/12306" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CookiesPool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OCR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OCR/darknet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OCR/yolo/darknet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/antispider_web/static/CryptoJS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/antispider_web/template/CryptoJS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js_param" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/make_money/search_spider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sougou_wechat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zhihu" vcs="Git" />
+  </component>
+</project>

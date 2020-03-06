@@ -10,15 +10,15 @@ from lxml import etree
 import random
 import re
 
-seed = "海贼王"
-query_url = "https://weixin.sogou.com/weixin?type=2&query={}".format(quote(seed))
+seed = "site:baidu.com"
+query_url = "https://www.sogou.com/web?query={}".format(quote(seed))
 headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "zh-CN,zh;q=0.9",
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
-    "Host": "weixin.sogou.com",
+    "Host": "www.sogou.com",
     "Pragma": "no-cache",
     "Referer": query_url,
     "Upgrade-Insecure-Requests": "1",
@@ -27,7 +27,17 @@ headers = {
 
 
 def get_cookie(url):
-    response = requests.get(url, headers=headers, verify=False)
+    response = requests.get(url, headers=headers, verify=False, proxies={'http': 'http://121.56.215.180:4261', 'https': 'http://121.56.215.180:4261'})
+    response.encoding = 'utf8'
+    # print(response.text)
+    if response.status_code != 200:
+        print('状态码:{}'.format(response.status_code))
+        print(response.text)
+    if '验证码' in response.text:
+        print('被封')
+        return
+    print(re.findall(r'搜狗已为您找到约(.*?)条相关结果',response.text)[0])
+    return
     cookies = response.headers['Set-Cookie'].split(';')
     res_cookie = []
     set_cookie = []
@@ -105,7 +115,7 @@ def get_suv(snuid):
     suv_url = "https://pb.sogou.com/pv.gif?" + urlencode(data)
 
     response = requests.get(suv_url, verify=False)
-    print(response)
+    # print(response.text)
     cookies = response.headers['Set-Cookie'].split(';')
     res_cookie = []
     set_cookie = []
@@ -146,4 +156,8 @@ def get_rel_url():
 
 
 if __name__ == '__main__':
-    snuid = get_cookie(query_url)
+    import time
+    start = time.time()
+    for i in range(20):
+        snuid = get_cookie(query_url)
+    print('time:{}'.format(str(time.time() - start)))

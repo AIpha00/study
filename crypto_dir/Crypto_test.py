@@ -5,6 +5,7 @@
 
 import base64
 from Crypto.Cipher import AES
+from Crypto.PublicKey import RSA
 
 import random
 
@@ -92,7 +93,7 @@ def get_key(n):
     c_length = int(n)
     # source = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678'
     source = 'always love you '
-    length = len(source) - 1
+    # length = len(source) - 1
     result = ''
     for i in range(c_length):
         result += source[i]
@@ -100,11 +101,11 @@ def get_key(n):
 
 
 if __name__ == '__main__':
-    text = '遇见你之前我未曾想过结婚，遇见你之后我只想结婚'
+    text = '遇见你之前我从未想过结婚，遇见你之后我只想结婚而且那个人只能是你'
     aes_key = get_key(16)
-    print('aes_key:' + aes_key)
-    # 对英文加密
+    print('密钥:' + aes_key)
+    print('明文:' + text)
     encrypt_en = encrypt(aes_key, text)
-    print(encrypt_en)
-    res_text = decrypt(aes_key, encrypt_en)
-    print(res_text)
+    print("密文:" + encrypt_en)
+    result = decrypt(aes_key, encrypt_en)
+    print(result)

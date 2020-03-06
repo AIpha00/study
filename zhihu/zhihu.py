@@ -18,7 +18,6 @@ from lxml import etree
 import pymongo
 
 
-
 class ZhihuSpider():
     def __init__(self, username, password):
         self.login_url = "https://www.zhihu.com/signin"
@@ -89,7 +88,7 @@ class ZhihuSpider():
         print(response.text)
         if 'error' in response.text:
             print(json.loads(response.text)['error']['message'])
-        if response.status_code in [200,201,202]:
+        if response.status_code in [200, 201, 202]:
             print('登录成功')
             cookies = response.headers['Set-Cookie'].split(';')
             res_cookie = []
@@ -103,7 +102,7 @@ class ZhihuSpider():
                         res_cookie.append(set)
                     else:
                         continue
-            self.headers_login['Cookie'] = self.headers['Cookie']+";"+res_cookie[0]
+            self.headers_login['Cookie'] = self.headers['Cookie'] + ";" + res_cookie[0]
             # zhihu_http2 = HTTP20Connection(self.login_url)
             req_http2 = requests.Session()
             req_http2.mount(self.login_url, HTTP20Adapter())
@@ -114,7 +113,6 @@ class ZhihuSpider():
         else:
             print('登录失败')
             return False
-
 
     def _get_xsrf(self):
         response = requests.head(url=self.login_url, headers=self.headers)
@@ -172,7 +170,7 @@ class ZhihuSpider():
                     continue
         print(res_cookie)
         capt_headers['Cookie'] = ';'.join(res_cookie).strip()
-        self.headers['Cookie'] = self.headers['Cookie']+";"+res_cookie[0]
+        self.headers['Cookie'] = self.headers['Cookie'] + ";" + res_cookie[0]
 
         if show_captcha:
             put_resp = requests.put(api, headers=capt_headers)
@@ -187,7 +185,7 @@ class ZhihuSpider():
                 print('点击所有倒立的汉字，按回车提交')
                 points = plt.ginput(7)
                 capt = json.dumps({'img_size': [200, 44],
-                                   'input_points': [[i[0]/2, i[1]/2] for i in points]})
+                                   'input_points': [[i[0] / 2, i[1] / 2] for i in points]})
             else:
                 img.show()
                 capt = input('请输入图片里的验证码：')
@@ -203,13 +201,17 @@ class ZhihuSpider():
         :return:
         '''
         html = etree.HTML(response.text)
-        node_list = html.xpath('//div[contains(@class,Card) and contains(@class,TopstoryItem) and contains(@class,TopstoryItem-isRecommend)]//div[contains(@class, "Feed")]')
+        node_list = html.xpath(
+            '//div[contains(@class,Card) and contains(@class,TopstoryItem) and contains(@class,TopstoryItem-isRecommend)]//div[contains(@class, "Feed")]')
         for node in node_list:
             item = {}
             item['title'] = node.xpath('normalize-space(.//h2)')
             item['article_url'] = node.xpath('normalize-space(.//h2//a/@href)')
-            item['article_short'] = node.xpath('normalize-space(.//div[contains(@class, RichContent-inner)]//span[contains(@class,"RichText") and contains(@class, "CopyrightRichText-richText")])')
-            item['article_Agree'] = node.xpath('normalize-space(.//div[contains(@class,"RichContent")]//div[contains(@class, "ContentItem-actions")]//span)').replace('\u200b', "").split(' ')[-1]
+            item['article_short'] = node.xpath(
+                'normalize-space(.//div[contains(@class, RichContent-inner)]//span[contains(@class,"RichText") and contains(@class, "CopyrightRichText-richText")])')
+            item['article_Agree'] = node.xpath(
+                'normalize-space(.//div[contains(@class,"RichContent")]//div[contains(@class, "ContentItem-actions")]//span)').replace(
+                '\u200b', "").split(' ')[-1]
             print(item)
             self.mydb['zhihu_test'].insert(item)
             yield
